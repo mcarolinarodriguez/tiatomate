@@ -1,0 +1,50 @@
+/* main Layout 
+.main {
+   
+    width: 100%;    
+    }
+    .main__container {
+    background-color: $jelly-bean;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    height: 600px;
+    }
+
+    .main__container2 {
+        background-color: $granite-gray;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        height: 600px;
+        }
+
+        .main__container3 {
+            background-color: $white;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            height: 600px;
+            }  
+
+    .main__title {
+    color: $white;
+    text-align: center;
+    }
+    .main__title-emphasis {
+    font-family: playfair;
+    font-weight: bold;
+    }
+    .main__title-emphasis--size-xxl {
+    font-size: $x-large;
+    }
+    .main__button {
+    margin: -20px;
+    }
+    */

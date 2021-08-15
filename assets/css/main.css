@@ -1,0 +1,127 @@
+/*vendors
+@import 'vendors/bootstrap';
+@import 'vendors/jquery-ui';*/
+/* Reset
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+*/
+/* Base Typography*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Base Styles
+body {
+    height: 100vh;
+}*/
+/* Header Layout 
+.header {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    }
+    .logo {
+    width: 120px;
+    }
+    */
+/* main Layout 
+.main {
+
+    width: 100%;    
+    }
+    .main__container {
+    background-color: $jelly-bean;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    height: 600px;
+    }
+
+    .main__container2 {
+        background-color: $granite-gray;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        height: 600px;
+        }
+
+        .main__container3 {
+            background-color: $white;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            height: 600px;
+            }  
+
+    .main__title {
+    color: $white;
+    text-align: center;
+    }
+    .main__title-emphasis {
+    font-family: playfair;
+    font-weight: bold;
+    }
+    .main__title-emphasis--size-xxl {
+    font-size: $x-large;
+    }
+    .main__button {
+    margin: -20px;
+    }
+    */
+/* footer Layout 
+.footer{
+    background-color: $granite-gray;
+    padding: 100px 0;
+
+    &__image{
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:250px;;
+
+    }
+} */
+/* Buttons 
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 3px;
+  font-family: $raleway;
+  font-size: $medium;
+  color: $white;
+  &:hover {
+    background-color: $salmon;
+    border-color: $salmon;
+    color: $granite-gray;
+  }
+}
+
+.button_positive {
+  background-color: $jelly-bean;
+  border-color: $jelly-bean;
+  &:hover {
+    background-color: $granite-gray;
+    border-color: $granite-gray;
+  }
+}
+*/
+/*pages
+@import 'pages/home';
+@import 'pages/contact';*/
+/*themes
+@import 'themes/theme';
+@import 'themes/admin';*/
+
+/*# sourceMappingURL=main.css.map */
