@@ -32,10 +32,30 @@ body {
   margin-right: auto;
 }
 .article__text {
-  width: 40%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  color: #686963;
+}
+.article__text__tittle {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #686963;
+}
+
+.article__tittle {
+  color: #686963;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.article__text {
+  color: #686963;
+  text-align: center;
 }
 
 .header {
@@ -58,7 +78,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0;
+  padding: 200px 0 0 0;
   height: 600px;
 }
 
@@ -72,7 +92,7 @@ body {
   height: 600px;
 }
 .main__container2__img {
-  width: 70%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -88,7 +108,7 @@ body {
   height: 600px;
 }
 .main__container3__img {
-  width: 70%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -97,6 +117,31 @@ body {
 .main__title {
   color: #FFF;
   text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.main__title2 {
+  color: #686963;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.main__text {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+}
+
+.main__text2 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #686963;
 }
 
 .main__title-emphasis {
@@ -131,29 +176,26 @@ body {
   margin-right: auto;
 }
 
-/* Buttons 
-.button {
-  padding: 0.7rem 2rem;
-  border-radius: 3px;
-  font-family: $raleway;
-  font-size: $medium;
-  color: $white;
-  &:hover {
-    background-color: $salmon;
-    border-color: $salmon;
-    color: $granite-gray;
-  }
+.section__title-emphasis {
+  font-family: raleway;
+  font-weight: bold;
+  font-size: 50px;
+  color: #FFF;
 }
 
-.button_positive {
-  background-color: $jelly-bean;
-  border-color: $jelly-bean;
-  &:hover {
-    background-color: $granite-gray;
-    border-color: $granite-gray;
-  }
+.button {
+  padding: 0.7rem 2rem;
+  border-radius: 20px;
+  font-family: "raleway", sans-serif;
+  font-size: 18px;
+  color: #686963;
 }
-*/
+.button:hover {
+  background-color: #FFF;
+  border-color: #FFF;
+  color: #686963;
+}
+
 /*pages
 @import 'pages/home';
 @import 'pages/contact';*/
