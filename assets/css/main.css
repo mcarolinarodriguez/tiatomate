@@ -1,7 +1,6 @@
 /*vendors
 @import 'vendors/bootstrap';
 @import 'vendors/jquery-ui';*/
-/* Reset
 body {
   margin: 0;
 }
@@ -9,7 +8,7 @@ body {
 img {
   max-width: 100%;
 }
-*/
+
 /* Base Typography*/
 h1, h2, h3, h4, h5, h6 {
   font-family: "raleway", sans-serif;
@@ -17,19 +16,37 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
 }
 
-/* Base Styles
 body {
-    height: 100vh;
-}*/
-/* Header Layout 
+  height: 100vh;
+}
+
+.article {
+  background-color: #FFF;
+  padding: 50px 0;
+  text-align: center;
+}
+.article__img {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article__text {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
-    padding-top: 2rem;
-    padding-left: 3rem;
-    }
-    .logo {
-    width: 120px;
-    }
-    */
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.logo {
+  width: 120px;
+}
+
 /* main Layout 
 .main {
 
@@ -80,20 +97,29 @@ body {
     margin: -20px;
     }
     */
-/* footer Layout 
-.footer{
-    background-color: $granite-gray;
-    padding: 100px 0;
+.footer {
+  background-color: #686963;
+  padding: 50px 0;
+}
+.footer__img {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    &__image{
-        width: 20%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width:250px;;
+.section {
+  background-color: #E56353;
+  padding: 50px 0;
+  text-align: center;
+}
+.section__img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    }
-} */
 /* Buttons 
 .button {
   padding: 0.7rem 2rem;
