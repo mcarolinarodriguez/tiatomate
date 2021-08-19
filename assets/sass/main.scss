@@ -5,9 +5,9 @@
 @import 'abstracts/mixins';
 //@import 'abstracts/placeholders';
 
-/*vendors
-@import 'vendors/bootstrap';
-@import 'vendors/jquery-ui';*/
+//vendors
+@import 'vendor/bootstrap';
+//@import 'vendors/jquery-ui';
 
 //base
 @import 'base/reset';
@@ -16,11 +16,11 @@
 @import 'base/base';
 
 //layout
-@import 'layout/article';
+@import 'layout/nav';
 //@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/main';
-@import 'layout/footer';
+//@import 'layout/footer';
 //@import 'layout/sidebar';
 //@import 'layout/forms';
 @import 'layout/section';
